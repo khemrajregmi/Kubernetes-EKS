@@ -57,7 +57,8 @@ you can also serch for the services
 
 ``` kubectl get svc -n game-2048 ```
 
-screenshots
+![images](screenshots/Screenshot%202024-04-18%20at%2012.39.42.png)
+
 
 As you see now have cluster IP and type ins NodePort but there is no external IP that means anybody within the AWS VPC or anybody who has access to VPC they talk to this pod using the
 IP address followed by Port but our goal is make availabe to outside the aws or some who is your customer should access this , so for that we have created the ingress right ?
@@ -157,7 +158,7 @@ Verify that the deployments are running.
 kubectl get deployment -n kube-system aws-load-balancer-controller
 ```
 
-Screenshot
+![images](screenshots/Screenshot%202024-04-18%20at%2013.18.57.png)
 
 you can do debugging with
 ```
@@ -185,5 +186,4 @@ Enjoy !!
 
 
 
-![images](screenshots/Screenshot 2024-04-18 at 12.14.41.png)
-)
+![images](screenshots/Screenshot%202024-04-18%20at%2013.22.27.png)
